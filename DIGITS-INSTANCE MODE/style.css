@@ -1,0 +1,22 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+#sketchAscii {
+  width: 1080px;
+  height: 1080px;
+  position: relative;
+}
+
+#sketchAscii canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.flexer {
+  display: flex;
+  flex-direction: row;
+}

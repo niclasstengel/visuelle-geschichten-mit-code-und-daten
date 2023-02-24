@@ -1,0 +1,22 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+  }
+  
+  #sketchplease {
+    width: 50vw;
+    height: 50vw;
+    position: relative;
+  }
+  
+  #sketchplease canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .flexer {
+    display: flex;
+    flex-direction: row;
+  }
